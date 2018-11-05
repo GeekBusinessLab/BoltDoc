@@ -179,10 +179,15 @@
             };
 
             let chave_objeto;
+            let chave_objeto_id;
+            let chave_associacao_id;
             const chaves_propria = Object.keys(regras.rules[chave]);
             for(let i = 0; i < chaves_propria.length; i++){
               if(chaves_propria[i].startsWith('$')){
                 chave_objeto = chaves_propria[i];
+                console.log('CH ', chave_objeto);
+                chave_objeto_id = chave_objeto.split('_id')[0].split('$')[1];
+                console.log('CO ', chave_objeto_id);
                 break;
               }
             }
@@ -197,7 +202,29 @@
                   figure: "Decision",
                   color: yellowgrad
                 });
+              } else if(item.startsWith('$') && item.endsWith('_id')) {
+                chave_associacao_id = item.split('_id')[0].split('$')[1];;
               }
+            }
+
+            if (chave !== chave_objeto_id){
+              console.log('EX CHAVE 1 ', chave, ' CHAVE 2 ', chave_objeto_id);
+              linkDataArray.push({
+                from: chave,
+                to: chave_objeto_id,
+                //text: "0..N",
+                //toText: "1" 
+              });
+            }
+
+            if (chave_associacao_id !== undefined) {
+              console.log('AS CHAVE 1 ', chave, ' CHAVE 2 ', chave_associacao_id);
+              linkDataArray.push({
+                from: chave,
+                to: chave_associacao_id,
+                //text: "0..N",
+                //toText: "1" 
+              });
             }
 
             nodeDataArray.push(colecao);
@@ -216,9 +243,11 @@
 <body onload="init()">
 
 <div id="sample">
+
   <input type="file" id="file" name="files[]" />
 
   <div id="myDiagramDiv" style="background-color: white; border: solid 1px black; width: 100%; height: 700px"></div>
+
 </div>
 </body>
 </html>
