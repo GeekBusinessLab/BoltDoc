@@ -1,0 +1,785 @@
+{
+  "administradores": {
+    "Osjz3291zyedOavKNSyh2beXXUL2": {
+      "email": "brazao@geekbusinesslab.com.br",
+      "nivel": "admin",
+      "nome": "Brazão",
+      "telefone": "00 0 0000 0000"
+    },
+    "X6KHdHv0IVXyflw2u2vrifI7lxi2": {
+      "email": "fabio@geekbusinesslab.com.br",
+      "nivel": "admin",
+      "nome": "Fábio",
+      "telefone": "00 0 0000 0000"
+    },
+    "XL1HrvJ9sVaR9CLJmxq9uFlTWaJ2": {
+      "email": "jeferson@geekbusinesslab.com.br",
+      "nivel": "admin",
+      "nome": "Jeferson",
+      "telefone": "00 0 0000 0000"
+    },
+    "p1gc1MYfyMhMkpG8Q9ZFcWy2Snz2": {
+      "email": "leonardo.barros@sejaenvipro.com.br",
+      "nivel": "admin",
+      "nome": "Leonardo",
+      "telefone": "00 0 0000 0000"
+    },
+    "uNrxIYYBoUV7Z8sdJXgScnrq3IC3": {
+      "email": "rogerio@geekbusinesslab.com.br",
+      "nivel": "admin",
+      "nome": "Rogério",
+      "telefone": "00 0 0000 0000"
+    }
+  },
+  "cursos_presenciais": {
+    "-LOOMRSxklVUT9Vu3rBy": {
+      "cidade": "Salvador",
+      "nome": "Curso de Ecologia Xtreme",
+      "periodo": {
+        "final": 1540954800000,
+        "inicio": 1539918000000
+      },
+      "status": true,
+      "vagas": 12
+    },
+    "-LOPdRsjUu1raRFGTZpI": {
+      "cidade": "Salvador",
+      "nome": "Curso de Ecologia Easy",
+      "periodo": {
+        "final": 1547175600000,
+        "inicio": 1541386800000
+      },
+      "status": true,
+      "vagas": 12
+    },
+    "-LOQHp9dhooGU83rp7j9": {
+      "cidade": "Salvador",
+      "nome": "Curso Ecologia Very Easy",
+      "periodo": {
+        "final": 1539313200000,
+        "inicio": 1539140400000
+      },
+      "status": true,
+      "vagas": 20
+    },
+    "-LP1qfcLJ2W4OrOQu6Li": {
+      "cidade": "Salvador",
+      "nome": "Teste Foto 02",
+      "periodo": {
+        "final": 1541127600000,
+        "inicio": 1539918000000
+      },
+      "status": true,
+      "vagas": 12
+    },
+    "-LPCaT64kNb16AkrbTh9": {
+      "cidade": "Baixa Grande",
+      "nome": "Teste curso",
+      "periodo": {
+        "final": 1541732400000,
+        "inicio": 1540177200000
+      },
+      "status": true,
+      "vagas": 20
+    },
+    "-LPR8BHWrFHIZetCddjl": {
+      "cidade": "Salvador",
+      "nome": "Teste Agora Vai",
+      "periodo": {
+        "final": 1540522800000,
+        "inicio": 1540350000000
+      },
+      "status": true,
+      "vagas": 12
+    }
+  },
+  "cursos_presenciais_detalhes": {
+    "-LOOMRSxklVUT9Vu3rBy": {
+      "capa": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/cursos/capa/-LOOMRSxklVUT9Vu3rBy.png",
+      "carga_horaria": 32,
+      "cep": "12345-678",
+      "complemento": "Teste",
+      "descricao": "Teste ",
+      "estado": "BA",
+      "numero": 33,
+      "observacoes": "Editei Observações",
+      "rua": "Rua das Margaridas",
+      "tema": "Ecologia"
+    },
+    "-LOPdRsjUu1raRFGTZpI": {
+      "capa": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/cursos/capa/-LOPdRsjUu1raRFGTZpI.png",
+      "carga_horaria": 12,
+      "cep": "12345-678",
+      "complemento": "Teste",
+      "descricao": "Teste",
+      "estado": "BA",
+      "numero": 33,
+      "observacoes": "Teste",
+      "rua": "Rua das Margaridas",
+      "tema": "Ecologia"
+    },
+    "-LOQHp9dhooGU83rp7j9": {
+      "capa": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/cursos/capa/-LOQHp9dhooGU83rp7j9.png",
+      "carga_horaria": 32,
+      "cep": "12345-678",
+      "complemento": "",
+      "descricao": "Descrição do Curso",
+      "estado": "BA",
+      "numero": 1,
+      "observacoes": "Bem vindo ao curso amigo!",
+      "rua": "Rua da Mangueira",
+      "tema": "Ecologia"
+    },
+    "-LP1qfcLJ2W4OrOQu6Li": {
+      "capa": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/cursos/capa/-LP1qfcLJ2W4OrOQu6Li.png",
+      "carga_horaria": 12,
+      "cep": "",
+      "complemento": "",
+      "descricao": "fghdfghgfh",
+      "estado": "AP",
+      "numero": 33,
+      "observacoes": "gfhghfgh",
+      "rua": "",
+      "tema": "Gestão Ambiental"
+    },
+    "-LPCaT64kNb16AkrbTh9": {
+      "capa": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/cursos/capa/-LPCaT64kNb16AkrbTh9.png",
+      "carga_horaria": 40,
+      "cep": "",
+      "complemento": "",
+      "descricao": "gggggggggggggggg",
+      "estado": "BA",
+      "numero": 100,
+      "observacoes": "ggggggggggg",
+      "rua": ""
+    },
+    "-LPR8BHWrFHIZetCddjl": {
+      "capa": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/cursos/capa/-LPR8BHWrFHIZetCddjl.png",
+      "carga_horaria": 12,
+      "cep": "",
+      "complemento": "",
+      "descricao": "ghgfhgfh",
+      "estado": "AM",
+      "numero": 33,
+      "observacoes": "hjhgjghjh",
+      "rua": ""
+    },
+    "@curso_id": {
+      "capa": "www.google.com/capa.jpg",
+      "carga_horaria": 240,
+      "cep": "00000-000",
+      "complemento": "sobrado",
+      "descricao": "Curso Geek",
+      "estado": "Bahia",
+      "numero": 69,
+      "observacoes": "GeekBusinessLab",
+      "rua": "Ladeira",
+      "tema": "Direito Ambiental"
+    }
+  },
+  "cursos_presenciais_professores": {
+    "-LP6MZtvn3bVtMyUDSIa": {
+      "-LPR2W-5mfX2tBZoMBGO": true,
+      "-LPR6xvsBbLN9HO-NSM3": true
+    },
+    "-LP6Mk7TEypw1p3JbvlM": {
+      "-LPR8BHWrFHIZetCddjl": true
+    },
+    "-LP6N0VKMzCCRG1UsZPN": {
+      "-LPR2W-5mfX2tBZoMBGO": true,
+      "-LPR4p7JEbF58NqhKntb": true,
+      "-LPR5MyuSCB6oZ3GgrUp": true
+    }
+  },
+  "cursos_presenciais_temas": {
+    "-LOOMRSxklVUT9Vu3rBy": {
+      "-LP3Ep7OEq7_JI0XHMPe": true
+    },
+    "-LPCaT64kNb16AkrbTh9": {
+      "-LP3DK9uODp_95KpOWhj": true,
+      "-LP3Ep7OEq7_JI0XHMPe": true
+    },
+    "-LPR8BHWrFHIZetCddjl": {
+      "-LP3Ep7OEq7_JI0XHMPe": true
+    }
+  },
+  "cursos_presenciais_inscritos": {
+    "@curso_id": {
+      "@inscrito_id": {
+        "cpf": "000.000.000.00",
+        "email": "fulaninho@example.com",
+        "nome": "Fulaninho",
+        "pagamento" : {
+          "status" : true,
+          "id_pagamento" : 54322686,
+          "data_processamento" : 518419,
+          "data_conclusao" : 5184547
+        }
+      }
+    }
+  },
+  "logs": {
+    "login": {
+      "-LOt9rh-C8skFju6Kv3N": {
+        "data_login": 1539631184782,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LOtFklR4tbz_eC9GTGY": {
+        "data_login": 1539632729178,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LOtFlHhN8HhIN0wlNH8": {
+        "data_login": 1539632731385,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LOuMl4P6L6A-_SNzawt": {
+        "data_login": 1539651344975,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LOyvgov-QwE6yhzY7Yb": {
+        "data_login": 1539727871366,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LOywHckJXOwRbOZEA3P": {
+        "data_login": 1539728026245,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP1PAqh9CMabFJoaCPZ": {
+        "data_login": 1539786194345,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP2DzJ2a9HxK8FFrV_0": {
+        "data_login": 1539800036609,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP2ELpU4CpFRK_g7pqt": {
+        "data_login": 1539800131977,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP2OxlHCqz_5RxqdFs7": {
+        "data_login": 1539802912413,
+        "email": "rogerio@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Rogério",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP3-jV9zwkHk_PiFxpT": {
+        "data_login": 1539813079126,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP33RXAtwRyBwwPhRRb": {
+        "data_login": 1539814049927,
+        "email": "rogerio@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Rogério",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP3GN9W9m7EAwjczhBQ": {
+        "data_login": 1539817439688,
+        "email": "leonardo.barros@sejaenvipro.com.br",
+        "nivel": "admin",
+        "nome": "Leonardo",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP6HCfuJwtrqumlhpcB": {
+        "data_login": 1539867990915,
+        "email": "rogerio@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Rogério",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP6IUTnZOc1S3tuCvRr": {
+        "data_login": 1539868325805,
+        "email": "rogerio@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Rogério",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP6IXJQfY5pJOLwHfqT": {
+        "data_login": 1539868337434,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP6IXrjfZUDbwps-_RO": {
+        "data_login": 1539868339692,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP6IYSQRY3ywwhavJlM": {
+        "data_login": 1539868342149,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP6It0ZkM9fOBdrJkoy": {
+        "data_login": 1539868430470,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP6Jgckyfnge0wFtXKa": {
+        "data_login": 1539868641838,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP6JvbG1KDnamaQQXTg": {
+        "data_login": 1539868703183,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LP6XBg9oMVXEbuUFDKv": {
+        "data_login": 1539872180999,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LPCYX20hoF47JA0Ur7l": {
+        "data_login": 1539973194037,
+        "email": "rogerio@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Rogério",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LPQmY_zgb6hFibCzOH0": {
+        "data_login": 1540212013350,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      },
+      "-LPQs6DJWZA2xLdD-X6t": {
+        "data_login": 1540213470098,
+        "email": "jeferson@geekbusinesslab.com.br",
+        "nivel": "admin",
+        "nome": "Jeferson",
+        "telefone": "00 0 0000 0000"
+      }
+    }
+  },
+  "lotes_cursos_presenciais": {
+    "-LOOMRSxklVUT9Vu3rBy": [
+      {
+        "desconto_associado": {
+          "tipo": "porc",
+          "valor": 30
+        },
+        "desconto_estudante": {
+          "tipo": "real",
+          "valor": 50
+        },
+        "nome": "Teste",
+        "periodo": {
+          "final": 1539313200000,
+          "inicio": 1539140400000
+        },
+        "valor": 430
+      },
+      {
+        "desconto_associado": {
+          "tipo": "porc",
+          "valor": 30
+        },
+        "desconto_estudante": {
+          "tipo": "real",
+          "valor": 10
+        },
+        "nome": "Teste 02",
+        "periodo": {
+          "final": 1539313200000,
+          "inicio": 1539140400000
+        },
+        "valor": 120
+      }
+    ],
+    "-LP1qfcLJ2W4OrOQu6Li": [
+      {
+        "desconto_associado": {
+          "tipo": "porc",
+          "valor": 10
+        },
+        "desconto_estudante": {
+          "tipo": "real",
+          "valor": 20
+        },
+        "nome": "Teste lote 3",
+        "periodo": {
+          "final": 1540782000000,
+          "inicio": 1539831600000
+        },
+        "valor": 220
+      }
+    ],
+    "@curso_id": [
+      {
+        "desconto_associado": {
+          "tipo": "real",
+          "valor": 20
+        },
+        "desconto_estudante": {
+          "tipo": "porc",
+          "valor": 30
+        },
+        "nome": "Lote 1",
+        "periodo": {
+          "final": "12/12/2012 00:00:00",
+          "inicio": "12/12/2018 00:00:00"
+        },
+        "valor": 100
+      }
+    ]
+  },
+  "midias_cursos_presenciais": {
+    "-LP1qfcLJ2W4OrOQu6Li": {
+      "fotos": [
+        "SMPTE-color-bars.png"
+      ],
+      "videos": [
+        "youtu.be/teste"
+      ]
+    },
+    "@curso_id": {
+      "nome": "Economia"
+    }
+  },
+  "professores": {
+    "-LP3-XGCqeO_lDKaM6M0": {
+      "foto": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img%2Fprofessores%2F-LP3-XGCqeO_lDKaM6M0.png?alt=media&token=e82489ea-fbe1-4b7e-bffe-fd86c9a459ea",
+      "link_externo": "",
+      "mini_curriculo": "Advogado na área de Direito Ambiental, professor nas áreas de Direito Ambiental, Direitos Fundamentais e Direito Constitucional, Mestre em Direito Privado pela Universidade Federal da Bahia. Especialista em Direito e Gestão Ambiental pela PUC-SP.",
+      "nome": "André Krull",
+      "status": true,
+      "titulacao": "Especialista em Direito e Gestão Ambiental"
+    },
+    "-LP6L6U0uuMMlJpjHcpk": {
+      "foto": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/professores/-LP6L6U0uuMMlJpjHcpk.png",
+      "link_externo": "http://lattes.cnpq.br/0853917234652230",
+      "mini_curriculo": "Biólogo, Mestre em Geologia com área de concentração em Geologia Costeira e Sedimentar, atualmente leciona na Universidade Católica do Salvador, instituição da qual obteve sua graduação. Tem experiência na área de Botânica atuando principalmente nos seguintes temas: vegetação de restinga, florística e fitossociologia, manejo e conservação de vegetação costeira, sistemática e ecologia de populações e comunidades vegetais e SIG.",
+      "nome": "Christiano Menezes",
+      "status": true,
+      "titulacao": "Mestre em Geologia"
+    },
+    "-LP6M6EqMUu3uoVmMAkr": {
+      "foto": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/professores/-LP6M6EqMUu3uoVmMAkr.png",
+      "link_externo": "https://www.linkedin.com/in/edmilson-puridade-jr-92130726/",
+      "mini_curriculo": "Engenheiro Ambiental e Sanitarista pela UNIFACS, Especialista em Engenharia de Saneamento Básico Ambiental pelo INBEC. Tem experiência na área de Licenciamento e Fiscalização Ambiental e Avaliação de Impactos Ambientais. Professor nas áreas de Licenciamento Ambiental e Recuperação de Áreas Degradadas.",
+      "nome": "Edmilson Nogueira Puridade Junior",
+      "status": true,
+      "titulacao": "Especialista em Engenharia de Saneamento Básico Ambiental"
+    },
+    "-LP6MZtvn3bVtMyUDSIa": {
+      "foto": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/professores/-LP6MZtvn3bVtMyUDSIa.png",
+      "link_externo": "http://lattes.cnpq.br/6700727740883919",
+      "mini_curriculo": "Biólogo, bacharel em Recursos Ambientais pela Universidade Federal da Bahia (UFBA) em 2002 e Mestre em Ecologia e Biomonitoramento pela mesma Universidade (2006). Tem curso de Avaliação de EIA/RIMA, promovido pela Fundação Universidade do Rio Grande (FURG), em 2010 e docente do Centro Universitário Jorge Amado (UNIJORGE) para o curso de Ciências Biológicas e da Faculdade de Ciência e Tecnologia (ÁREA1) para o curso de Engenharia Ambiental e Sanitária. Apresenta experiência em Avaliação Ambiental Estratégica (AAE), Ecologia, com ênfase em Ecologia de Ecossistemas, Monitoramento e Gestão Ambiental.",
+      "nome": "Fernando Pires",
+      "status": true,
+      "titulacao": "Mestre em Ecologia e Biomonitoramento"
+    },
+    "-LP6Mk7TEypw1p3JbvlM": {
+      "foto": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/professores/-LP6Mk7TEypw1p3JbvlM.png",
+      "link_externo": "http://lattes.cnpq.br/8321909132413213",
+      "mini_curriculo": "Possui Graduação em Engenharia Civil pela Universidade Federal de Juiz de Fora (2008), Mestrado (2011) e Doutorado (2017) em Geotecnia Ambiental pela COPPE/Universidade Federal do Rio de Janeiro, com Doutorado Sanduíche na Universidade Joseph-Fourier (Grenoble/França). Atualmente é professora dos cursos de Engenharia Civil e Engenharia Ambiental da Universidade Federal de Juiz de Fora, ministrando as disciplinas de Geologia, Geotecnia Ambiental e Geotecnia de Aterros Sanitários. Possui experiência na área de Geotecnia Ambiental, com ênfase em tratamento e disposição de resíduos, atuando principalmente nos seguintes temas: encerramento de aterros, avaliação de estabilidade de maciços de lixo e gerenciamento de resíduos sólidos.",
+      "nome": "Júlia Righi",
+      "status": true,
+      "titulacao": "Doutora em Geotecnia Ambiental"
+    },
+    "-LP6N0VKMzCCRG1UsZPN": {
+      "foto": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/professores/-LP6N0VKMzCCRG1UsZPN.png",
+      "link_externo": "http://lattes.cnpq.br/7797015354415279",
+      "mini_curriculo": "Advogada, graduada em Ciências Jurídicas pela Universidade Metodista de Piracicaba - SP. Pós Graduada em Gerenciamento de Recursos Hídricos pela Universidade Federal da Bahia e mestre em Desenvolvimento Sustentável pelo Centro de Desenvolvimento Sustentável da Universidade de Brasília. Atualmente é Especialista em Meio Ambiente e Recursos Hídricos da Secretaria do Meio Ambiente do Estado da Bahia.",
+      "nome": "Larissa Cayres",
+      "status": true,
+      "titulacao": "Mestre em Desenvolvimento Sustentável"
+    },
+    "-LP6NGacNIA_x_vNu5sA": {
+      "foto": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/professores/-LP6NGacNIA_x_vNu5sA.png",
+      "link_externo": "http://lattes.cnpq.br/8960255037317495",
+      "mini_curriculo": "Biólogo (UFBA/2008), mestre em Diversidade Animal/Zoologia (UFBA/2011) e doutor em Ecologia (UFBA/2016). Trabalha nos órgãos estaduais ambientais da Bahia desde 2014, atualmente coordena o setor de Geoprocessamento do Instituto do Meio Ambiente e Recursos Hídricos (Geo/COTIC/Inema). Em parceria com a UFBA e órgãos ambientais, tem participado de atividades que objetivam associar o conhecimento ecológico à tomada de decisões. Atuou na consultoria ambiental entre 2007 e 2013, foi professor substituto do Instituto de Biologia da UFBA nos anos de 2010 e 2011 e atualmente ministra disciplinas em cursos de pós-graduação nas áreas de ecologia, metodologia científica, gestão ambiental e planejamento territorial.",
+      "nome": "Tiago Porto",
+      "status": true,
+      "titulacao": "Doutor em Ecologia"
+    },
+    "-LP6OBk34sbw_9Fkep4O": {
+      "foto": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/professores/-LP6OBk34sbw_9Fkep4O.png",
+      "link_externo": "",
+      "mini_curriculo": "Bacharel em Engenharia Ambiental pela Faculdade de Ciências e Tecnologia – Área 1. É Especialista em Engenharia de Segurança do trabalho pela UNIFACS e Especialista em Engenharia de Saneamento Básico e Ambiental pela Universidade Paulista. Especialista em Qualificação em Gestão Ambiental pelo SENAI. Tem curso de Gerenciamento de Resíduos Sólidos pela BVQI. Auditora de Gestão Integrado nas Normas de qualidade, meio ambiente e segurança do trabalho pela BVQI. Possui experiência com gerenciamento de resíduos sólidos em indústria química e petroquímica, fiscalização de contratos e remoção de passivos ambientais provenientes de resíduos gerados em atividades de exploração de petróleo.",
+      "nome": "Carla Moreira",
+      "status": true,
+      "titulacao": "Especialista em Engenharia de Saneamento Básico e Ambiental "
+    },
+    "-LP6QQeysqbZZ9IpEb7G": {
+      "foto": "https://firebasestorage.googleapis.com/v0/b/envipro-dev.appspot.com/o/img/professores/-LP6QQeysqbZZ9IpEb7G.png",
+      "link_externo": "",
+      "mini_curriculo": "Bacharel em Engenharia Ambiental pela Faculdade de Ciências e Tecnologia – Área 1. Possui experiência como supervisor de equipe no planejamento, organização, acompanhamento e interpretação de cenários para promoção de alternativas para tratativa de passivos ambientais; recuperação de áreas degradadas por passivos de remoção de resíduos sólidos. É responsável técnico pela gestão e gerenciamento de processos e contratos relacionados a Tratamento de resíduos sólidos industriais (Perfuração, produção, Administrativos, perigosos e não perigosos) e efluentes como prestador de serviços da Petrobras.",
+      "nome": "Marcílio de Freitas",
+      "status": true,
+      "titulacao": "Engenheiro Ambiental"
+    }
+  },
+  "professores_cursos_presenciais": {
+    "-LOOMRSxklVUT9Vu3rBy": {
+      "-LNXKukeaPOLtnhq82RW": true,
+      "-LNxIXSMNn1EtCoQUyPZ": true
+    },
+    "-LOPdRsjUu1raRFGTZpI": {
+      "-LNXKukeaPOLtnhq82RW": true,
+      "-LNxIXSMNn1EtCoQUyPZ": true,
+      "-LNxJDB6UbIH5iRRZJgh": true
+    },
+    "-LPR8BHWrFHIZetCddjl": {
+      "-LP6L6U0uuMMlJpjHcpk": true,
+      "-LP6Mk7TEypw1p3JbvlM": true
+    },
+    "@curso_id": {
+      "@professor_id": true
+    }
+  },
+  "temas": {
+    "-LP3DK9uODp_95KpOWhj": {
+      "nome": "Estudo Técnico em Ecologia"
+    },
+    "-LP3Ep7OEq7_JI0XHMPe": {
+      "nome": "Estudo Técnico em Ecologia"
+    },
+    "@id_tema": {
+      "nome": "politica"
+    },
+    "ecologia": {
+      "nome": "Ecologia"
+    },
+    "economia": {
+      "nome": "economia"
+    },
+    "macarrao_com azeite": {
+      "nome": "macarrao com azeite"
+    },
+    "mamao_com_acucar": {
+      "nome": "Mamão com Açucar"
+    },
+    "mamao_com_cafe": {
+      "nome": "Mamão com Café"
+    },
+    "pasta_de amendoim": {
+      "nome": "pasta de amendoim"
+    },
+    "tema com acentuação 2": {
+      "nome": "Tema com Acentuação 2"
+    },
+    "tema_com acentuação": {
+      "nome": "Tema com Acentuação"
+    },
+    "tema_com_acentuação_3": {
+      "nome": "Tema com Acentuação 3"
+    },
+    "xixim_de camarão": {
+      "nome": "xixim de camarão"
+    }
+  },
+  "temas_cursos_presenciais": {
+    "-LP3DK9uODp_95KpOWhj": {
+      "-LOOMRSxklVUT9Vu3rBy": true,
+      "-LPCaT64kNb16AkrbTh9": true,
+      "-LPEHNGMp6BNIZoaMtRx": true
+    },
+    "-LP3Ep7OEq7_JI0XHMPe": {
+      "-LOOMRSxklVUT9Vu3rBy": true,
+      "-LPCaT64kNb16AkrbTh9": true,
+      "-LPCb-24fXwfqbxGNy5Y": true,
+      "-LPR8BHWrFHIZetCddjl": true
+    },
+    "ecologia": {
+      "-LPEHNGMp6BNIZoaMtRx": true
+    }
+  },
+
+
+  "alunos": {
+    "@aluno_id": {
+      "nome": "Andressa Andrade",
+      "foto": "www.mypicture.com/sdfsdfd578/sdfsdf/dfsf/sd455.png"
+    }
+  },
+  "alunos_detalhes" : {
+    "@aluno_id" : {
+      "credito" : 50.00,
+      "telefone" : "00 0 0000 0000",
+      "email": "fulaninho@example.com"  
+    }
+  },
+  "curso_distancia" : {
+    "@curso_distancia_id" : {
+      "nome" : "Gestão Ambiental",
+      "periodo": {
+        "final": 1540954800000,
+        "inicio": 1539918000000
+      },
+      "status" : true
+    }
+  },
+  "curso_distancia_detalhes" : {
+    "@curso_distancia_id" : {
+      "capa" : "www.mypicture.com/sdfsdfd578/sdfsdf/dfsf/sd455.png",
+      "carga_horaria"  : "250" ,
+      "descricao" : "Neste curso, o aluno irá aprender conceitos...",
+      "observacoes" : "Este curso é indicado para..."
+    }
+  },
+  "cursos_modulos" : {
+    "@curso_id" : {
+      "@modulo_id" : true,
+      "@modulo_id2" : true
+    }
+  },
+  "modulos_cursos" : {
+    "@modulo_id" : {
+      "@curso_id" : true,
+      "@curso_id2" : true
+    }
+  },
+  "modulos" : {
+    "@modulo_id" : {
+      "nome" : "Código Florestal",
+      "descricao" : "Teste, teste e exemploe mais teste",
+      "nro_videos" : 1,
+      "@_id_" : {
+        "video_id" : "@video_id"
+      }
+    }
+  },
+  "modulos_detalhes" : {
+    "@modulo_id" : {
+      "album_URI" : "/album/51515151515/"
+    }
+  },
+  "videos" : {
+    "@video_id" : {
+      "nome" : "Leis ambientais",
+      "descricao" : "Teste, teste e exemploe mais teste",
+      "duracao" : 25,
+      "url_video" : "/album/51515151515/video/sdfsdfd",
+      "modulo_id" : "@modulo_id"
+    }
+  },
+  "alunos_tokens" : {
+    "@aluno_id" : {
+      "@video_id" : {
+        "token_acesso" : "24PPy4G68Yrt0321ZZMx",
+        "status" : true
+      }
+    }
+  },
+  "cursos_distancia_inscritos": {
+    "@curso_id": {
+      "@inscrito_id": {
+        "cpf": "000.000.000.00",
+        "email": "fulaninho@example.com",
+        "nome": "Fulaninho",
+        "pagamento" : {
+          "status" : true,
+          "id_pagamento" : 54322686,
+          "data_processamento" : 518419,
+          "data_conclusao" : 5184547
+        }
+
+      }
+    }
+  },
+  "alunos_inscritos" : {
+    "@aluno_id" : {
+      "@inscrito_id" : true
+    }
+  },
+  "inscritos_alunos" : {
+    "@inscrito_id" : {
+      "@aluno_id" : true
+    }
+  },
+  "cursos_distancia_alunos" : {
+    "@curso_distancia_id" : {
+      "@aluno_id" : true
+    }
+  },
+  "alunos_cursos_distancia" : {
+    "@aluno_id" : {
+      "@curso_distancia_id" : true
+    }
+  },
+  "cursos_distancia_lotes" : {
+    "-LZZMRSxklVUT9Vu3rBy": [
+      {
+        "nome": "Teste",
+        "valor": 430,
+        "periodo": {
+          "final": 1539313200000,
+          "inicio": 1539140400000
+        },
+        "desconto_associado": {
+          "tipo": "porc",
+          "valor": 30
+        },
+        "desconto_estudante": {
+          "tipo": "real",
+          "valor": 50
+        }
+      }
+    ],
+    "-LP1qfcLJ2W2OrOQu8Li": [
+      {
+        "nome": "Teste lote 3",
+        "valor": 220,
+        "periodo": {
+          "final": 1540782000000,
+          "inicio": 1539831600000
+        },
+        "desconto_associado": {
+          "tipo": "porc",
+          "valor": 10
+        },
+        "desconto_estudante": {
+          "tipo": "real",
+          "valor": 20
+        }
+      }
+    ]
+  }
+}
