@@ -173,10 +173,32 @@
 
         for(const chave in regras.rules){
           if(regras.rules.hasOwnProperty(chave)){
-            const colecao = {};
-            colecao.key = chave;
+            const colecao = {
+              key: chave,
+              items: []
+            };
 
-            for()
+            let chave_objeto;
+            const chaves_propria = Object.keys(regras.rules[chave]);
+            for(let i = 0; i < chaves_propria.length; i++){
+              if(chaves_propria[i].startsWith('$')){
+                chave_objeto = chaves_propria[i];
+                break;
+              }
+            }
+
+            const items_obj = regras.rules[chave][chave_objeto];
+
+            for(const item in items_obj){
+              if(items_obj.hasOwnProperty(item) && !item.startsWith('.') && !item.startsWith('$')){
+                colecao.items.push({
+                  name: item,
+                  iskey: false,
+                  figure: "Decision",
+                  color: yellowgrad
+                });
+              }
+            }
 
             nodeDataArray.push(colecao);
           }
